@@ -19,17 +19,38 @@ namespace CabInvoiceService
         /// <summary>
         /// The cost per time
         /// </summary>
-        private static readonly int COST_PER_TIME = 1;
+        private readonly int COST_PER_TIME;
 
         /// <summary>
         /// The minimum cost per kilometer
         /// </summary>
-        private static readonly double MINIMUM_COST_PER_KILOMETER = 10;
+        private readonly double MINIMUM_COST_PER_KILOMETER;
 
         /// <summary>
         /// The minimum fare
         /// </summary>
-        private static readonly double MINIMUM_FARE = 5;
+        private readonly double MINIMUM_FARE;
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="InvoiceService"/> class.
+        /// </summary>
+        /// <param name="TypeOfService">The type of service.</param>
+        public InvoiceService(string TypeOfService)
+        {
+            if (TypeOfService.Equals("Premium"))
+            {
+                this.COST_PER_TIME = 1;
+                this.MINIMUM_COST_PER_KILOMETER = 10;
+                this.MINIMUM_FARE = 5;
+            }
+
+            if (TypeOfService.Equals("Normal"))
+            {
+                this.COST_PER_TIME = 1;
+                this.MINIMUM_COST_PER_KILOMETER = 10;
+                this.MINIMUM_FARE = 5;
+            }
+        }
 
         /// <summary>
         /// Calculates the fare.
@@ -76,9 +97,9 @@ namespace CabInvoiceService
         /// <returns>double value</returns>
         public double AverageFareForEachRides(Ride[] rides)
         {
-            InvoiceService obj = new InvoiceService();
-            double Totalfare = obj.totalFare(rides);
-            double NoOfRides = obj.TotalRides(rides);
+            
+            double Totalfare = totalFare(rides);
+            double NoOfRides = TotalRides(rides);
             double AvgFare = Totalfare / NoOfRides;
             return AvgFare;
         }
@@ -91,12 +112,12 @@ namespace CabInvoiceService
         public double GetInvoiceSummary(Customer User_Id)
         {
             double Total_fare = 0;
-            InvoiceService obj = new InvoiceService();
+            
             foreach (KeyValuePair<Customer, List<Ride>> keyvalues in RideRepository.RideDictionary)
             {
                 if (User_Id == keyvalues.Key)
                 {
-                    Total_fare = obj.totalFare(keyvalues.Value.ToArray());
+                    Total_fare = totalFare(keyvalues.Value.ToArray());
                 }
             }
             return Total_fare;
