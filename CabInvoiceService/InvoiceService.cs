@@ -59,5 +59,28 @@ namespace CabInvoiceService
             return TotalFare;
         }
 
+        /// <summary>
+        /// Totals the rides.
+        /// </summary>
+        /// <param name="rides">The rides.</param>
+        /// <returns>double value</returns>
+        public double TotalRides(Ride[] rides)
+        {
+            return rides.Length;
+        }
+
+        /// <summary>
+        /// Averages the fare for each rides.
+        /// </summary>
+        /// <param name="rides">The rides.</param>
+        /// <returns>double value</returns>
+        public double AverageFareForEachRides(Ride[] rides)
+        {
+            InvoiceService obj = new InvoiceService();
+            double Totalfare = obj.totalFare(rides);
+            double NoOfRides = obj.TotalRides(rides);
+            double AvgFare = Totalfare / NoOfRides;
+            return AvgFare;
+        }
     }
 }
