@@ -7,6 +7,7 @@
 
 namespace InvoiceServiceTest
 {
+    using System.Collections.Generic;
     using CabInvoiceService;
     using NUnit.Framework;
 
@@ -85,6 +86,48 @@ namespace InvoiceServiceTest
             double Total = obj.CalculateFare(5, 15) + obj.CalculateFare(12, 35) + obj.CalculateFare(7, 23);
             double expected = Total / rides.Length;
             Assert.AreEqual(Actual, expected);
+        }
+
+        /// <summary>
+        /// Givens the user identifier should get total fare.
+        /// </summary>
+        [Test]
+        public void Given_UserId_ShouldGet_TotalFare()
+        {
+            RideRepository rideRepository = new RideRepository();
+            List<Ride> rides = new List<Ride>();
+            rides.Add(new Ride(5, 15));
+            rides.Add(new Ride(12, 35));
+            rides.Add(new Ride(7, 23));
+            
+            Customer New_Custmor = new Customer("jd");
+            rideRepository.AddRide(New_Custmor,rides);
+
+            InvoiceService obj = new InvoiceService();
+            double actual = obj.GetInvoiceSummary(New_Custmor);
+            double expected = obj.totalFare(rides.ToArray());
+            Assert.AreEqual(actual, expected);
+        }
+
+        /// <summary>
+        /// Givens the user identifier should get total number of rides.
+        /// </summary>
+        [Test]
+        public void Given_UserId_ShouldGet_TotalNumberOfRides()
+        {
+            List<Ride> rides = new List<Ride>();
+            rides.Add(new Ride(5, 15));
+            rides.Add(new Ride(12, 35));
+            rides.Add(new Ride(7, 23));
+            
+            Customer New_Custmor = new Customer("jd");
+            RideRepository rideRepository = new RideRepository();
+            rideRepository.AddRide(New_Custmor, rides);
+            double actual = InvoiceSummary.GetRides(New_Custmor);
+
+            InvoiceService obj = new InvoiceService();
+            double expected = obj.TotalRides(rides.ToArray());
+            Assert.AreEqual(actual, expected);
         }
     }
 }

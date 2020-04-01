@@ -82,5 +82,24 @@ namespace CabInvoiceService
             double AvgFare = Totalfare / NoOfRides;
             return AvgFare;
         }
+
+        /// <summary>
+        /// Gets the invoice summary.
+        /// </summary>
+        /// <param name="User_Id">The user identifier.</param>
+        /// <returns></returns>
+        public double GetInvoiceSummary(Customer User_Id)
+        {
+            double Total_fare = 0;
+            InvoiceService obj = new InvoiceService();
+            foreach (KeyValuePair<Customer, List<Ride>> keyvalues in RideRepository.RideDictionary)
+            {
+                if (User_Id == keyvalues.Key)
+                {
+                    Total_fare = obj.totalFare(keyvalues.Value.ToArray());
+                }
+            }
+            return Total_fare;
+        }
     }
 }
