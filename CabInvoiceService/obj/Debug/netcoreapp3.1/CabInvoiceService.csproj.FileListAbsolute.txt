@@ -1,0 +1,11 @@
+C:\Users\Neelabh\source\repos\CabInvoiceService\CabInvoiceService\bin\Debug\netcoreapp3.1\CabInvoiceService.exe
+C:\Users\Neelabh\source\repos\CabInvoiceService\CabInvoiceService\bin\Debug\netcoreapp3.1\CabInvoiceService.deps.json
+C:\Users\Neelabh\source\repos\CabInvoiceService\CabInvoiceService\bin\Debug\netcoreapp3.1\CabInvoiceService.runtimeconfig.json
+C:\Users\Neelabh\source\repos\CabInvoiceService\CabInvoiceService\bin\Debug\netcoreapp3.1\CabInvoiceService.runtimeconfig.dev.json
+C:\Users\Neelabh\source\repos\CabInvoiceService\CabInvoiceService\bin\Debug\netcoreapp3.1\CabInvoiceService.dll
+C:\Users\Neelabh\source\repos\CabInvoiceService\CabInvoiceService\bin\Debug\netcoreapp3.1\CabInvoiceService.pdb
+C:\Users\Neelabh\source\repos\CabInvoiceService\CabInvoiceService\obj\Debug\netcoreapp3.1\CabInvoiceService.csprojAssemblyReference.cache
+C:\Users\Neelabh\source\repos\CabInvoiceService\CabInvoiceService\obj\Debug\netcoreapp3.1\CabInvoiceService.AssemblyInfoInputs.cache
+C:\Users\Neelabh\source\repos\CabInvoiceService\CabInvoiceService\obj\Debug\netcoreapp3.1\CabInvoiceService.AssemblyInfo.cs
+C:\Users\Neelabh\source\repos\CabInvoiceService\CabInvoiceService\obj\Debug\netcoreapp3.1\CabInvoiceService.dll
+C:\Users\Neelabh\source\repos\CabInvoiceService\CabInvoiceService\obj\Debug\netcoreapp3.1\CabInvoiceService.pdb

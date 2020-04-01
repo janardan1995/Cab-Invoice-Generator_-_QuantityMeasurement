@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CabInvoiceService", "CabInvoiceService\CabInvoiceService.csproj", "{7979CC31-86AF-40EF-AB3A-55F78500E9A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoiceServiceTest", "InvoiceServiceTest\InvoiceServiceTest.csproj", "{607224D0-F68E-4510-A343-B69E6670B2AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7979CC31-86AF-40EF-AB3A-55F78500E9A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7979CC31-86AF-40EF-AB3A-55F78500E9A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7979CC31-86AF-40EF-AB3A-55F78500E9A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7979CC31-86AF-40EF-AB3A-55F78500E9A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{607224D0-F68E-4510-A343-B69E6670B2AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{607224D0-F68E-4510-A343-B69E6670B2AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{607224D0-F68E-4510-A343-B69E6670B2AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{607224D0-F68E-4510-A343-B69E6670B2AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D65B7ADA-ECD8-46FC-A8A1-EA3C32C20996}
+	EndGlobalSection
+EndGlobal
