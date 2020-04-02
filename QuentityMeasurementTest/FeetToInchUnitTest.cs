@@ -23,11 +23,20 @@ namespace QuentityMeasurementTest
         }
 
         [Test]
-        public void Given_Ref_ShouldReturnFalse()
+        public void ForRefCheck_ShouldReturnFalse()
         {
             Feet ft1 = new Feet(11);
             var actual = ft1.Equals(this);
             Assert.IsFalse(actual);
+        }
+        
+        [Test]
+        public void ForTypeCheck_ShouldReturnTrue()
+        {
+            Feet ft1 = new Feet(11);
+            Feet ft2 = new Feet(13);
+            var actual = ft1.Equals(ft2);
+            Assert.IsTrue(actual);
         }
 
     }
