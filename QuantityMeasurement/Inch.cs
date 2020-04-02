@@ -11,10 +11,9 @@ namespace QuantityMeasurement
         {
             this.inch = inch;
         }
-
         public override bool Equals(object obj)
         {
-            if ((obj==null)|| !this.GetType().Equals(obj.GetType()))
+            if ((obj == null) || !this.GetType().Equals(obj.GetType()))
                 return false;
             return true;
         }

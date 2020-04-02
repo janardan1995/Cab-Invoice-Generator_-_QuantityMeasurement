@@ -98,6 +98,17 @@ namespace QuentityMeasurementTest
             Assert.IsFalse(actual);
         }
 
+        [Test]
+        public void Given0feetAnd0Inch_WhileCheking_ShouldReturnTrue()
+        {
+            Feet feet = new Feet(0);
+            Inch inch = new Inch(0);
+
+            FeetToInches feetToInches = new FeetToInches(feet, inch);
+            var actual = feetToInches.ConvertedFeetToInchValue();
+            Assert.IsTrue(actual);
+        }
+
 
 
     }
