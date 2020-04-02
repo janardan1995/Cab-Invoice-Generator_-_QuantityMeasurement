@@ -4,25 +4,24 @@ using System.Text;
 
 namespace QuantityMeasurement
 {
-   public class Feet
+    public class Inch
     {
-        public double feet;
-       
-        public Feet(double feet)
+        public double inch;
+        public Inch(double inch)
         {
-            this.feet = feet;
+            this.inch = inch;
         }
 
         public override bool Equals(object obj)
         {
-            if ((obj == null) || !this.GetType().Equals(obj.GetType()))
+            if ((obj==null)|| !this.GetType().Equals(obj.GetType()))
                 return false;
             return true;
         }
 
-        public bool ConvertedFeetValue(Feet feet)
+        public bool ConvertedInchValue(Inch inch)
         {
-            if (this.feet.Equals(feet.feet))
+            if (this.inch.Equals(inch.inch))
                 return true;
             return false;
         }
