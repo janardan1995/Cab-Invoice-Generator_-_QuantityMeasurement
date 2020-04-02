@@ -1448,6 +1448,16 @@
         "runtime": {
           "bin/placeholder/QuantityMeasurement.dll": {}
         }
+      },
+      "QuantityMeasurement_TemperatureCalculation/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/QuantityMeasurement_TemperatureCalculation.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/QuantityMeasurement_TemperatureCalculation.dll": {}
+        }
       }
     }
   },
@@ -5271,6 +5281,11 @@
       "type": "project",
       "path": "../QuantityMeasurement/QuantityMeasurement.csproj",
       "msbuildProject": "../QuantityMeasurement/QuantityMeasurement.csproj"
+    },
+    "QuantityMeasurement_TemperatureCalculation/1.0.0": {
+      "type": "project",
+      "path": "../QuantityMeasurement_TemperatureCalculation/QuantityMeasurement_TemperatureCalculation.csproj",
+      "msbuildProject": "../QuantityMeasurement_TemperatureCalculation/QuantityMeasurement_TemperatureCalculation.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5278,6 +5293,7 @@
       "Microsoft.NET.Test.Sdk >= 16.2.0",
       "NUnit3TestAdapter >= 3.15.1",
       "QuantityMeasurement >= 1.0.0",
+      "QuantityMeasurement_TemperatureCalculation >= 1.0.0",
       "nunit >= 3.12.0"
     ]
   },
@@ -5309,6 +5325,9 @@
           "projectReferences": {
             "C:\\Users\\Neelabh\\source\\repos\\QuantityMeasurement\\QuantityMeasurement\\QuantityMeasurement.csproj": {
               "projectPath": "C:\\Users\\Neelabh\\source\\repos\\QuantityMeasurement\\QuantityMeasurement\\QuantityMeasurement.csproj"
+            },
+            "C:\\Users\\Neelabh\\source\\repos\\QuantityMeasurement\\QuantityMeasurement_TemperatureCalculation\\QuantityMeasurement_TemperatureCalculation.csproj": {
+              "projectPath": "C:\\Users\\Neelabh\\source\\repos\\QuantityMeasurement\\QuantityMeasurement_TemperatureCalculation\\QuantityMeasurement_TemperatureCalculation.csproj"
             }
           }
         }

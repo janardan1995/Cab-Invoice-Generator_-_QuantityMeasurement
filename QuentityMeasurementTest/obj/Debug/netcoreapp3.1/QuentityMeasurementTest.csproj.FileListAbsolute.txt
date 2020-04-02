@@ -94,3 +94,6 @@ C:\Users\Neelabh\source\repos\QuantityMeasurement\QuentityMeasurementTest\bin\De
 C:\Users\Neelabh\source\repos\QuantityMeasurement\QuentityMeasurementTest\obj\Debug\netcoreapp3.1\QuentityMeasurementTest.csproj.CopyComplete
 C:\Users\Neelabh\source\repos\QuantityMeasurement\QuentityMeasurementTest\obj\Debug\netcoreapp3.1\QuentityMeasurementTest.dll
 C:\Users\Neelabh\source\repos\QuantityMeasurement\QuentityMeasurementTest\obj\Debug\netcoreapp3.1\QuentityMeasurementTest.pdb
+C:\Users\Neelabh\source\repos\QuantityMeasurement\QuentityMeasurementTest\bin\Debug\netcoreapp3.1\QuantityMeasurement_TemperatureCalculation.exe
+C:\Users\Neelabh\source\repos\QuantityMeasurement\QuentityMeasurementTest\bin\Debug\netcoreapp3.1\QuantityMeasurement_TemperatureCalculation.dll
+C:\Users\Neelabh\source\repos\QuantityMeasurement\QuentityMeasurementTest\bin\Debug\netcoreapp3.1\QuantityMeasurement_TemperatureCalculation.pdb
