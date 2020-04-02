@@ -99,7 +99,7 @@ namespace QuentityMeasurementTest
         }
 
         [Test]
-        public void Given0feetAnd0Inch_WhileCheking_ShouldReturnTrue()
+        public void Given_0feetAnd0Inch_WhileCheking_ShouldReturnTrue()
         {
             Feet feet = new Feet(0);
             Inch inch = new Inch(0);
@@ -107,6 +107,17 @@ namespace QuentityMeasurementTest
             FeetToInches feetToInches = new FeetToInches(feet, inch);
             var actual = feetToInches.ConvertedFeetToInchValue();
             Assert.IsTrue(actual);
+        }
+
+        [Test]
+        public void Given_1feetAnd1Inch_WhileCheking_ShouldReturnFalse()
+        {
+            Feet feet = new Feet(1);
+            Inch inch = new Inch(1);
+
+            FeetToInches feetToInches = new FeetToInches(feet, inch);
+            var actual = feetToInches.ConvertedFeetToInchValue();
+            Assert.IsFalse(actual);
         }
 
 

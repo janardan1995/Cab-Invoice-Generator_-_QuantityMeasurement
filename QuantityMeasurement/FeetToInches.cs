@@ -19,7 +19,9 @@ namespace QuantityMeasurement
         public bool ConvertedFeetToInchValue()
         {
             if (this.feet == 0 && (this.feet.Equals(this.inch)))
-                return true;           
+                return true;
+            if ((this.feet.Equals(12 / this.inch)))
+                return true;
             return false;
         }
     }
