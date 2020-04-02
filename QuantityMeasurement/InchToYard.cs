@@ -1,4 +1,11 @@
-﻿namespace QuantityMeasurement
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright file="InchToYard.cs" company="Bridgelabz">
+//   Copyright © 2020 Company="BridgeLabz"
+// </copyright>
+// <creator name="Janardan Das"/>
+// --------------------------------------------------------------------------------------------------------------------
+
+namespace QuantityMeasurement
 {
     /// <summary>
     /// yard into inches
