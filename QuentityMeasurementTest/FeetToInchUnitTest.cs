@@ -105,7 +105,7 @@ namespace QuentityMeasurementTest
             Inch inch = new Inch(0);
 
             FeetToInches feetToInches = new FeetToInches(feet, inch);
-            var actual = feetToInches.ConvertedFeetToInchValue();
+            var actual = feetToInches.ConvertedFeetToInchValue(inch);
             Assert.IsTrue(actual);
         }
 
@@ -116,11 +116,41 @@ namespace QuentityMeasurementTest
             Inch inch = new Inch(1);
 
             FeetToInches feetToInches = new FeetToInches(feet, inch);
-            var actual = feetToInches.ConvertedFeetToInchValue();
+            var actual = feetToInches.ConvertedFeetToInchValue(inch);
             Assert.IsFalse(actual);
         }
 
+        [Test]
+        public void Given_1feet_12Inch_WhileCheking_ShouldReturnFalse()
+        {
+            Feet feet = new Feet(1);
+            Inch inch = new Inch(12);
 
+            FeetToInches feetToInches = new FeetToInches(feet, inch);
+            var actual = feetToInches.ConvertedFeetToInchValue(inch);
+            Assert.IsTrue(actual);
+        }
 
+        [Test]
+        public void Given_1Inch_1feet_WhileCheking_ShouldReturnFalse()
+        {
+            Feet feet = new Feet(1);
+            Inch inch = new Inch(1);
+
+            FeetToInches feetToInches = new FeetToInches(feet, inch);
+            var actual = feetToInches.ConvertedInchToFeetValue(feet);
+            Assert.IsFalse(actual);
+        }
+
+       [Test]
+        public void Given_12Inch_1feet_WhileCheking_ShouldReturnFalse()
+        {
+            Feet feet = new Feet(1);
+            Inch inch = new Inch(12);
+
+            FeetToInches feetToInches = new FeetToInches(feet,inch);
+            var actual = feetToInches.ConvertedInchToFeetValue(feet);
+            Assert.IsTrue(actual);
+        }
     }
 }
