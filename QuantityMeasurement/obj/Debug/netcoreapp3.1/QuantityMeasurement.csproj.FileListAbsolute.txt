@@ -1,0 +1,11 @@
+C:\Users\Neelabh\source\repos\QuantityMeasurement\QuantityMeasurement\bin\Debug\netcoreapp3.1\QuantityMeasurement.exe
+C:\Users\Neelabh\source\repos\QuantityMeasurement\QuantityMeasurement\bin\Debug\netcoreapp3.1\QuantityMeasurement.deps.json
+C:\Users\Neelabh\source\repos\QuantityMeasurement\QuantityMeasurement\bin\Debug\netcoreapp3.1\QuantityMeasurement.runtimeconfig.json
+C:\Users\Neelabh\source\repos\QuantityMeasurement\QuantityMeasurement\bin\Debug\netcoreapp3.1\QuantityMeasurement.runtimeconfig.dev.json
+C:\Users\Neelabh\source\repos\QuantityMeasurement\QuantityMeasurement\bin\Debug\netcoreapp3.1\QuantityMeasurement.dll
+C:\Users\Neelabh\source\repos\QuantityMeasurement\QuantityMeasurement\bin\Debug\netcoreapp3.1\QuantityMeasurement.pdb
+C:\Users\Neelabh\source\repos\QuantityMeasurement\QuantityMeasurement\obj\Debug\netcoreapp3.1\QuantityMeasurement.csprojAssemblyReference.cache
+C:\Users\Neelabh\source\repos\QuantityMeasurement\QuantityMeasurement\obj\Debug\netcoreapp3.1\QuantityMeasurement.AssemblyInfoInputs.cache
+C:\Users\Neelabh\source\repos\QuantityMeasurement\QuantityMeasurement\obj\Debug\netcoreapp3.1\QuantityMeasurement.AssemblyInfo.cs
+C:\Users\Neelabh\source\repos\QuantityMeasurement\QuantityMeasurement\obj\Debug\netcoreapp3.1\QuantityMeasurement.dll
+C:\Users\Neelabh\source\repos\QuantityMeasurement\QuantityMeasurement\obj\Debug\netcoreapp3.1\QuantityMeasurement.pdb
