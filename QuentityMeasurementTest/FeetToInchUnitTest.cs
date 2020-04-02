@@ -26,7 +26,7 @@ namespace QuentityMeasurementTest
         public void ForRefCheck_ShouldReturnFalse()
         {
             Feet ft1 = new Feet(11);
-            var actual = ft1.Equals(this);
+            var actual = this.Equals(ft1);
             Assert.IsFalse(actual);
         }
         
@@ -37,6 +37,23 @@ namespace QuentityMeasurementTest
             Feet ft2 = new Feet(13);
             var actual = ft1.Equals(ft2);
             Assert.IsTrue(actual);
+        }
+
+        [Test]
+        public void GivenSimilarValues_WhileCheking_ShouldReturnTrue()
+        {
+            Feet ft1 = new Feet(11);
+            Feet ft2 = new Feet(11);
+            var actual = ft1.ConvertedFeetValue(ft2);
+            Assert.IsTrue(actual);
+        }
+        [Test]
+        public void GivenOddValues_WhileCheking_ShouldReturnFalse()
+        {
+            Feet ft1 = new Feet(11);
+            Feet ft2 = new Feet(110);
+            var actual = ft1.ConvertedFeetValue(ft2);
+            Assert.IsFalse(actual);
         }
 
     }
