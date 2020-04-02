@@ -1,0 +1,11 @@
+C:\Users\Neelabh\source\repos\QuantityMeasurement\QuantityMeasurement\bin\Debug\netcoreapp3.1\QuantityMeasurement_Length.exe
+C:\Users\Neelabh\source\repos\QuantityMeasurement\QuantityMeasurement\bin\Debug\netcoreapp3.1\QuantityMeasurement_Length.deps.json
+C:\Users\Neelabh\source\repos\QuantityMeasurement\QuantityMeasurement\bin\Debug\netcoreapp3.1\QuantityMeasurement_Length.runtimeconfig.json
+C:\Users\Neelabh\source\repos\QuantityMeasurement\QuantityMeasurement\bin\Debug\netcoreapp3.1\QuantityMeasurement_Length.runtimeconfig.dev.json
+C:\Users\Neelabh\source\repos\QuantityMeasurement\QuantityMeasurement\bin\Debug\netcoreapp3.1\QuantityMeasurement_Length.dll
+C:\Users\Neelabh\source\repos\QuantityMeasurement\QuantityMeasurement\bin\Debug\netcoreapp3.1\QuantityMeasurement_Length.pdb
+C:\Users\Neelabh\source\repos\QuantityMeasurement\QuantityMeasurement\obj\Debug\netcoreapp3.1\QuantityMeasurement_Length.csprojAssemblyReference.cache
+C:\Users\Neelabh\source\repos\QuantityMeasurement\QuantityMeasurement\obj\Debug\netcoreapp3.1\QuantityMeasurement_Length.AssemblyInfoInputs.cache
+C:\Users\Neelabh\source\repos\QuantityMeasurement\QuantityMeasurement\obj\Debug\netcoreapp3.1\QuantityMeasurement_Length.AssemblyInfo.cs
+C:\Users\Neelabh\source\repos\QuantityMeasurement\QuantityMeasurement\obj\Debug\netcoreapp3.1\QuantityMeasurement_Length.dll
+C:\Users\Neelabh\source\repos\QuantityMeasurement\QuantityMeasurement\obj\Debug\netcoreapp3.1\QuantityMeasurement_Length.pdb

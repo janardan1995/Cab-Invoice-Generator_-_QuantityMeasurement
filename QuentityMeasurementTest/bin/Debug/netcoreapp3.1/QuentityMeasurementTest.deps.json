@@ -10,7 +10,8 @@
         "dependencies": {
           "Microsoft.NET.Test.Sdk": "16.2.0",
           "NUnit3TestAdapter": "3.15.1",
-          "QuantityMeasurement": "1.0.0",
+          "QuantityMeasure_Weight": "1.0.0",
+          "QuantityMeasurement_Length": "1.0.0",
           "QuantityMeasurement_TemperatureCalculation": "1.0.0",
           "NUnit": "3.12.0"
         },
@@ -1010,14 +1011,19 @@
           }
         }
       },
-      "QuantityMeasurement/1.0.0": {
+      "QuantityMeasurement_Length/1.0.0": {
         "runtime": {
-          "QuantityMeasurement.dll": {}
+          "QuantityMeasurement_Length.dll": {}
         }
       },
       "QuantityMeasurement_TemperatureCalculation/1.0.0": {
         "runtime": {
           "QuantityMeasurement_TemperatureCalculation.dll": {}
+        }
+      },
+      "QuantityMeasure_Weight/1.0.0": {
+        "runtime": {
+          "QuantityMeasure_Weight.dll": {}
         }
       }
     }
@@ -1532,12 +1538,17 @@
       "path": "system.xml.xpath.xmldocument/4.3.0",
       "hashPath": "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
     },
-    "QuantityMeasurement/1.0.0": {
+    "QuantityMeasurement_Length/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "QuantityMeasurement_TemperatureCalculation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "QuantityMeasure_Weight/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1439,14 +1439,14 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
-      "QuantityMeasurement/1.0.0": {
+      "QuantityMeasurement_Length/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "compile": {
-          "bin/placeholder/QuantityMeasurement.dll": {}
+          "bin/placeholder/QuantityMeasurement_Length.dll": {}
         },
         "runtime": {
-          "bin/placeholder/QuantityMeasurement.dll": {}
+          "bin/placeholder/QuantityMeasurement_Length.dll": {}
         }
       },
       "QuantityMeasurement_TemperatureCalculation/1.0.0": {
@@ -1457,6 +1457,16 @@
         },
         "runtime": {
           "bin/placeholder/QuantityMeasurement_TemperatureCalculation.dll": {}
+        }
+      },
+      "QuantityMeasure_Weight/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/QuantityMeasure_Weight.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/QuantityMeasure_Weight.dll": {}
         }
       }
     }
@@ -5277,22 +5287,28 @@
         "system.xml.xpath.xmldocument.nuspec"
       ]
     },
-    "QuantityMeasurement/1.0.0": {
+    "QuantityMeasurement_Length/1.0.0": {
       "type": "project",
-      "path": "../QuantityMeasurement/QuantityMeasurement.csproj",
-      "msbuildProject": "../QuantityMeasurement/QuantityMeasurement.csproj"
+      "path": "../QuantityMeasurement/QuantityMeasurement_Length.csproj",
+      "msbuildProject": "../QuantityMeasurement/QuantityMeasurement_Length.csproj"
     },
     "QuantityMeasurement_TemperatureCalculation/1.0.0": {
       "type": "project",
       "path": "../QuantityMeasurement_TemperatureCalculation/QuantityMeasurement_TemperatureCalculation.csproj",
       "msbuildProject": "../QuantityMeasurement_TemperatureCalculation/QuantityMeasurement_TemperatureCalculation.csproj"
+    },
+    "QuantityMeasure_Weight/1.0.0": {
+      "type": "project",
+      "path": "../QuantityMeasure_Weight/QuantityMeasure_Weight.csproj",
+      "msbuildProject": "../QuantityMeasure_Weight/QuantityMeasure_Weight.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.NET.Test.Sdk >= 16.2.0",
       "NUnit3TestAdapter >= 3.15.1",
-      "QuantityMeasurement >= 1.0.0",
+      "QuantityMeasure_Weight >= 1.0.0",
+      "QuantityMeasurement_Length >= 1.0.0",
       "QuantityMeasurement_TemperatureCalculation >= 1.0.0",
       "nunit >= 3.12.0"
     ]
@@ -5323,11 +5339,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Neelabh\\source\\repos\\QuantityMeasurement\\QuantityMeasurement\\QuantityMeasurement.csproj": {
-              "projectPath": "C:\\Users\\Neelabh\\source\\repos\\QuantityMeasurement\\QuantityMeasurement\\QuantityMeasurement.csproj"
+            "C:\\Users\\Neelabh\\source\\repos\\QuantityMeasurement\\QuantityMeasurement\\QuantityMeasurement_Length.csproj": {
+              "projectPath": "C:\\Users\\Neelabh\\source\\repos\\QuantityMeasurement\\QuantityMeasurement\\QuantityMeasurement_Length.csproj"
             },
             "C:\\Users\\Neelabh\\source\\repos\\QuantityMeasurement\\QuantityMeasurement_TemperatureCalculation\\QuantityMeasurement_TemperatureCalculation.csproj": {
               "projectPath": "C:\\Users\\Neelabh\\source\\repos\\QuantityMeasurement\\QuantityMeasurement_TemperatureCalculation\\QuantityMeasurement_TemperatureCalculation.csproj"
+            },
+            "C:\\Users\\Neelabh\\source\\repos\\QuantityMeasurement\\QuantityMeasure_Weight\\QuantityMeasure_Weight.csproj": {
+              "projectPath": "C:\\Users\\Neelabh\\source\\repos\\QuantityMeasurement\\QuantityMeasure_Weight\\QuantityMeasure_Weight.csproj"
             }
           }
         }

@@ -13,8 +13,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\QuantityMeasurement\QuantityMeasurement.csproj" />
+    <ProjectReference Include="..\QuantityMeasurement\QuantityMeasurement_Length.csproj" />
     <ProjectReference Include="..\QuantityMeasurement_TemperatureCalculation\QuantityMeasurement_TemperatureCalculation.csproj" />
+    <ProjectReference Include="..\QuantityMeasure_Weight\QuantityMeasure_Weight.csproj" />
   </ItemGroup>
 
 </Project>

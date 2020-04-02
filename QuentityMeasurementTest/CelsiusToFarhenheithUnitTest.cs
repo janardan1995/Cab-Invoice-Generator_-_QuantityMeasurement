@@ -55,10 +55,7 @@ namespace QuentityMeasurementTest
             Assert.IsTrue(actual);
         }
 
-        /// <summary>
-        /// TestCase 6
-        /// Givens the odd feet values while cheking should return false.
-        /// </summary>
+      
         [Test]
         public void GivenOdd_CelsiusValues_WhileCheking_ShouldReturnFalse()
         {

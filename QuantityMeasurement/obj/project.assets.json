@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Neelabh\\source\\repos\\QuantityMeasurement\\QuantityMeasurement\\QuantityMeasurement.csproj",
-      "projectName": "QuantityMeasurement",
-      "projectPath": "C:\\Users\\Neelabh\\source\\repos\\QuantityMeasurement\\QuantityMeasurement\\QuantityMeasurement.csproj",
+      "projectUniqueName": "C:\\Users\\Neelabh\\source\\repos\\QuantityMeasurement\\QuantityMeasurement\\QuantityMeasurement_Length.csproj",
+      "projectName": "QuantityMeasurement_Length",
+      "projectPath": "C:\\Users\\Neelabh\\source\\repos\\QuantityMeasurement\\QuantityMeasurement\\QuantityMeasurement_Length.csproj",
       "packagesPath": "C:\\Users\\Neelabh\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Neelabh\\source\\repos\\QuantityMeasurement\\QuantityMeasurement\\obj\\",
       "projectStyle": "PackageReference",
