@@ -7,9 +7,9 @@ namespace QuantityMeasurement
         static void Main(string[] args)
         {
             Feet ss = new Feet(0);
-            Feet s = new Feet(0);
+            
 
-            bool x = ss.Equals(s);
+            bool x = ss.Equals(ss);
             Console.WriteLine(x);
         }
     }

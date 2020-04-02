@@ -21,6 +21,14 @@ namespace QuentityMeasurementTest
             var actual = ft1.Equals(null);
             Assert.IsFalse(actual);
         }
-       
+
+        [Test]
+        public void Given_Ref_ShouldReturnFalse()
+        {
+            Feet ft1 = new Feet(11);
+            var actual = ft1.Equals(this);
+            Assert.IsFalse(actual);
+        }
+
     }
 }
