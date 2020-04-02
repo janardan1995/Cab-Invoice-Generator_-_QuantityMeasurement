@@ -6,7 +6,6 @@ namespace QuantityMeasurement
 {
     public class FeetToInches
     {
-
         public double feet;
         public double inch;
        
@@ -22,7 +21,7 @@ namespace QuantityMeasurement
 
             if (this.feet == 0 && (this.feet.Equals(inch.inch)))
                 return true;
-            if ((this.feet.Equals(12 / inch.inch)))
+            if ((this.feet.Equals(inch.inch/12)))
                 return true;
             return false;
         }  
@@ -35,23 +34,6 @@ namespace QuantityMeasurement
             if ((this.inch.Equals(12 * feet.feet)))
                 return true;
             return false;
-        }  
-            
-                
-                  
-        
-        
-       
-
-        //public bool ConvertedInchToFeetValue()
-        //{
-        //    if (this.inch == 0 && (this.inch.Equals(this.feet)))
-        //        return true;
-        //    if ((this.inch.Equals(12 * this.feet)))
-        //        return true;
-        //    return false;
-        //}
-
-
+        } 
     }
 }
