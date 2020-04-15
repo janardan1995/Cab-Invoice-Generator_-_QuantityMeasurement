@@ -9,3 +9,5 @@ C:\Users\Neelabh\source\repos\QuantityMeasurement\QuantityMeasurement_Temperatur
 C:\Users\Neelabh\source\repos\QuantityMeasurement\QuantityMeasurement_TemperatureCalculation\obj\Debug\netcoreapp3.1\QuantityMeasurement_TemperatureCalculation.AssemblyInfo.cs
 C:\Users\Neelabh\source\repos\QuantityMeasurement\QuantityMeasurement_TemperatureCalculation\obj\Debug\netcoreapp3.1\QuantityMeasurement_TemperatureCalculation.dll
 C:\Users\Neelabh\source\repos\QuantityMeasurement\QuantityMeasurement_TemperatureCalculation\obj\Debug\netcoreapp3.1\QuantityMeasurement_TemperatureCalculation.pdb
+C:\Users\Neelabh\source\repos\QuantityMeasurement\QuantityMeasurement_TemperatureCalculation\obj\Debug\netcoreapp3.1\QuantityMeasurement_TemperatureCalculation.csproj.CoreCompileInputs.cache
+C:\Users\Neelabh\source\repos\QuantityMeasurement\QuantityMeasurement_TemperatureCalculation\obj\Debug\netcoreapp3.1\QuantityMeasurement_TemperatureCalculation.genruntimeconfig.cache

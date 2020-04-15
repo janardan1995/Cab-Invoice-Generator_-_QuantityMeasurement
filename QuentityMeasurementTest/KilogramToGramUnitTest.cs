@@ -22,9 +22,9 @@ namespace QuentityMeasurementTest
         [Test]
         public void Given_0Kilogram_And0Kilogram_ShouldReturnTrue()
         {
-            Kilogram ft1 = new Kilogram(0);
-            Kilogram ft2 = new Kilogram(0);
-            var actual = ft1.ConvertedKilogramValue(ft2);
+            Kilogram _kilogram = new Kilogram(0);
+            Kilogram kilogram = new Kilogram(0);
+            var actual = _kilogram.ConvertedKilogramValue(kilogram);
             Assert.IsTrue(actual);
         }
 
@@ -34,8 +34,8 @@ namespace QuentityMeasurementTest
         [Test]
         public void Given_nullKilogram_ShouldReturnFalse()
         {
-            Kilogram ft1 = new Kilogram(10);
-            var actual = ft1.Equals(null);
+            Kilogram _kilogram = new Kilogram(10);
+            var actual = _kilogram.Equals(null);
             Assert.IsFalse(actual);
         }
 
@@ -45,8 +45,8 @@ namespace QuentityMeasurementTest
         [Test]
         public void ForKilogram_RefCheck_ShouldReturnFalse()
         {
-            Kilogram ft1 = new Kilogram(10);
-            var actual = ft1.Equals(null);
+            Kilogram _kilogram = new Kilogram(10);
+            var actual = _kilogram.Equals(null);
             Assert.IsFalse(actual);
 
         }
@@ -57,9 +57,9 @@ namespace QuentityMeasurementTest
         [Test]
         public void ForKilogram_TypeCheck_ShouldReturnTrue()
         {
-            Kilogram ft1 = new Kilogram(0);
-            Kilogram ft2 = new Kilogram(0);
-            var actual = ft1.Equals(ft2);
+            Kilogram _kilogram = new Kilogram(0);
+            Kilogram kilogram = new Kilogram(0);
+            var actual = _kilogram.Equals(kilogram);
             Assert.IsTrue(actual);
         }
 
@@ -69,9 +69,9 @@ namespace QuentityMeasurementTest
         [Test]
         public void GivenSimilar_KilogramValues_WhileCheking_ShouldReturnTrue()
         {
-            Kilogram ft1 = new Kilogram(10);
-            Kilogram ft2 = new Kilogram(10);
-            var actual = ft1.ConvertedKilogramValue(ft2);
+            Kilogram _kilogram = new Kilogram(10);
+            Kilogram kilogram = new Kilogram(10);
+            var actual = _kilogram.ConvertedKilogramValue(kilogram);
             Assert.IsTrue(actual);
         }
 
@@ -81,9 +81,9 @@ namespace QuentityMeasurementTest
         [Test]
         public void GivenOdd_KilogramValues_WhileCheking_ShouldReturnFalse()
         {
-            Kilogram ft1 = new Kilogram(10);
-            Kilogram ft2 = new Kilogram(1);
-            var actual = ft1.ConvertedKilogramValue(ft2);
+            Kilogram _kilogram = new Kilogram(10);
+            Kilogram kilogram = new Kilogram(1);
+            var actual = _kilogram.ConvertedKilogramValue(kilogram);
             Assert.IsFalse(actual);
         }
 
@@ -93,8 +93,8 @@ namespace QuentityMeasurementTest
         [Test]
         public void Given_nullGramK_ShouldReturnFalse()
         {
-            Gram ft1 = new Gram(10);
-            var actual = ft1.Equals(null);
+            Gram gram = new Gram(10);
+            var actual = gram.Equals(null);
             Assert.IsFalse(actual);
         }
 
@@ -104,8 +104,8 @@ namespace QuentityMeasurementTest
         [Test]
         public void ForGram_RefCheck_ShouldReturnFalse()
         {
-            Gram ft1 = new Gram(10);
-            var actual = ft1.Equals(null);
+            Gram gram = new Gram(10);
+            var actual = gram.Equals(null);
             Assert.IsFalse(actual);
 
         }
@@ -116,9 +116,9 @@ namespace QuentityMeasurementTest
         [Test]
         public void ForGram_TypeCheck_ShouldReturnTrue()
         {
-            Gram ft1 = new Gram(0);
-            Gram ft2 = new Gram(0);
-            var actual = ft1.Equals(ft2);
+            Gram gram = new Gram(0);
+            Gram _gram = new Gram(0);
+            var actual = gram.Equals(_gram);
             Assert.IsTrue(actual);
         }
 
@@ -128,9 +128,9 @@ namespace QuentityMeasurementTest
         [Test]
         public void GivenSimilar_GramValues_WhileCheking_ShouldReturnTrue()
         {
-            Gram ft1 = new Gram(10);
-            Gram ft2 = new Gram(10);
-            var actual = ft1.ConvertedGramValue(ft2);
+            Gram gram = new Gram(10);
+            Gram _gram = new Gram(10);
+            var actual = gram.ConvertedGramValue(_gram);
             Assert.IsTrue(actual);
         }
 
@@ -140,9 +140,9 @@ namespace QuentityMeasurementTest
         [Test]
         public void GivenOdd_GramValues_WhileCheking_ShouldReturnFalse()
         {
-            Gram ft1 = new Gram(10);
-            Gram ft2 = new Gram(1);
-            var actual = ft1.ConvertedGramValue(ft2);
+            Gram gram = new Gram(10);
+            Gram _gram = new Gram(1);
+            var actual = gram.ConvertedGramValue(_gram);
             Assert.IsFalse(actual);
         }
 

@@ -22,9 +22,9 @@ namespace QuentityMeasurementTest
         [Test]
         public void Given_0yard_And0yard_ShouldReturnTrue()
         {
-            Yard y1 = new Yard(0);
-            Yard y2 = new Yard(0);
-            var actual = y1.ConvertedYardValue(y2);
+            Yard yard = new Yard(0);
+            Yard _yard = new Yard(0);
+            var actual = yard.ConvertedYardValue(_yard);
             Assert.IsTrue(actual);
         }
 
@@ -35,8 +35,8 @@ namespace QuentityMeasurementTest
         [Test]
         public void Given_nullYard_ShouldReturnFalse()
         {
-            Yard ft1 = new Yard(11);
-            var actual = ft1.Equals(null);
+            Yard _yard = new Yard(11);
+            var actual = _yard.Equals(null);
             Assert.IsFalse(actual);
         }
 
@@ -47,8 +47,8 @@ namespace QuentityMeasurementTest
         [Test]
         public void ForYard_RefCheck_ShouldReturnFalse()
         {
-            Yard ft1 = new Yard(11);
-            var actual = this.Equals(ft1);
+            Yard _yard = new Yard(11);
+            var actual = this.Equals(_yard);
             Assert.IsFalse(actual);
         }
 
@@ -59,9 +59,9 @@ namespace QuentityMeasurementTest
         [Test]
         public void ForYard_TypeCheck_ShouldReturnTrue()
         {
-            Yard ft1 = new Yard(11);
-            Yard ft2 = new Yard(13);
-            var actual = ft1.Equals(ft2);
+            Yard _yard = new Yard(11);
+            Yard yard = new Yard(13);
+            var actual = _yard.Equals(yard);
             Assert.IsTrue(actual);
         }
 
@@ -72,9 +72,9 @@ namespace QuentityMeasurementTest
         [Test]
         public void GivenSimilar_YardValues_WhileCheking_ShouldReturnTrue()
         {
-            Yard ft1 = new Yard(11);
-            Yard ft2 = new Yard(11);
-            var actual = ft1.ConvertedYardValue(ft2);
+            Yard _yard = new Yard(11);
+            Yard yard = new Yard(11);
+            var actual = _yard.ConvertedYardValue(yard);
             Assert.IsTrue(actual);
         }
 
@@ -85,9 +85,9 @@ namespace QuentityMeasurementTest
         [Test]
         public void GivenOdd_YardValues_WhileCheking_ShouldReturnFalse()
         {
-            Yard ft1 = new Yard(11);
-            Yard ft2 = new Yard(110);
-            var actual = ft1.ConvertedYardValue(ft2);
+            Yard _yard = new Yard(11);
+            Yard yard = new Yard(110);
+            var actual = _yard.ConvertedYardValue(yard);
             Assert.IsFalse(actual);
         }
 

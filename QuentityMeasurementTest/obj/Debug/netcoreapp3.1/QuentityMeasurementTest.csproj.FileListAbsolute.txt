@@ -100,3 +100,5 @@ C:\Users\Neelabh\source\repos\QuantityMeasurement\QuentityMeasurementTest\bin\De
 C:\Users\Neelabh\source\repos\QuantityMeasurement\QuentityMeasurementTest\bin\Debug\netcoreapp3.1\QuantityMeasure_Weight.exe
 C:\Users\Neelabh\source\repos\QuantityMeasurement\QuentityMeasurementTest\bin\Debug\netcoreapp3.1\QuantityMeasure_Weight.dll
 C:\Users\Neelabh\source\repos\QuantityMeasurement\QuentityMeasurementTest\bin\Debug\netcoreapp3.1\QuantityMeasure_Weight.pdb
+C:\Users\Neelabh\source\repos\QuantityMeasurement\QuentityMeasurementTest\obj\Debug\netcoreapp3.1\QuentityMeasurementTest.csproj.CoreCompileInputs.cache
+C:\Users\Neelabh\source\repos\QuantityMeasurement\QuentityMeasurementTest\obj\Debug\netcoreapp3.1\QuentityMeasurementTest.genruntimeconfig.cache

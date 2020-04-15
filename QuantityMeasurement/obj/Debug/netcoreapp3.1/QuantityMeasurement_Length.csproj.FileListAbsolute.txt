@@ -9,3 +9,5 @@ C:\Users\Neelabh\source\repos\QuantityMeasurement\QuantityMeasurement\obj\Debug\
 C:\Users\Neelabh\source\repos\QuantityMeasurement\QuantityMeasurement\obj\Debug\netcoreapp3.1\QuantityMeasurement_Length.AssemblyInfo.cs
 C:\Users\Neelabh\source\repos\QuantityMeasurement\QuantityMeasurement\obj\Debug\netcoreapp3.1\QuantityMeasurement_Length.dll
 C:\Users\Neelabh\source\repos\QuantityMeasurement\QuantityMeasurement\obj\Debug\netcoreapp3.1\QuantityMeasurement_Length.pdb
+C:\Users\Neelabh\source\repos\QuantityMeasurement\QuantityMeasurement\obj\Debug\netcoreapp3.1\QuantityMeasurement_Length.csproj.CoreCompileInputs.cache
+C:\Users\Neelabh\source\repos\QuantityMeasurement\QuantityMeasurement\obj\Debug\netcoreapp3.1\QuantityMeasurement_Length.genruntimeconfig.cache

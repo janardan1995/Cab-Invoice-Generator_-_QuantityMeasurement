@@ -9,3 +9,5 @@ C:\Users\Neelabh\source\repos\QuantityMeasurement\QuantityMeasure_Weight\obj\Deb
 C:\Users\Neelabh\source\repos\QuantityMeasurement\QuantityMeasure_Weight\obj\Debug\netcoreapp3.1\QuantityMeasure_Weight.AssemblyInfo.cs
 C:\Users\Neelabh\source\repos\QuantityMeasurement\QuantityMeasure_Weight\obj\Debug\netcoreapp3.1\QuantityMeasure_Weight.dll
 C:\Users\Neelabh\source\repos\QuantityMeasurement\QuantityMeasure_Weight\obj\Debug\netcoreapp3.1\QuantityMeasure_Weight.pdb
+C:\Users\Neelabh\source\repos\QuantityMeasurement\QuantityMeasure_Weight\obj\Debug\netcoreapp3.1\QuantityMeasure_Weight.csproj.CoreCompileInputs.cache
+C:\Users\Neelabh\source\repos\QuantityMeasurement\QuantityMeasure_Weight\obj\Debug\netcoreapp3.1\QuantityMeasure_Weight.genruntimeconfig.cache
